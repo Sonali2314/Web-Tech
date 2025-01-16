@@ -1,0 +1,89 @@
+/* Updated Styling */
+
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: 'Arial', sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.profile {
+    height: auto;
+    width: 50%;
+    border: 3px solid #52cebd;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(82, 206, 189, 0.6);
+    border-radius: 10px;
+    background: linear-gradient(180deg, #0f2a61, #214582);
+    padding: 2% 3%;
+    margin: 2% auto;
+}
+
+.profile img {
+    border-radius: 50%;
+    border: 3px solid #96D4D4;
+    box-shadow: 0 0 15px rgba(150, 212, 212, 0.8);
+}
+
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    font-size: 16px;
+}
+
+th,
+td {
+    border: 1px solid #96D4D4;
+    padding: 12px 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+
+th {
+    background: #689ed8;
+    color: #003f5c;
+    font-weight: bold;
+    font-size: large;
+}
+
+tr {
+    background-color: rgba(174, 173, 173, 0.74);
+}
+
+
+
+.profile h1,
+.profile h2,
+.profile h3 {
+    color: #e8f7ff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.profile h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.profile h2 {
+    font-size: 2em;
+    margin: 15px 0;
+}
+
+.profile h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: white;
+}
